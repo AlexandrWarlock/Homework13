@@ -1,4 +1,4 @@
-public class Hufflepuff extends student {
+public class Hufflepuff extends Student {
     int diligence;
     int loyalty;
     int honesty;
@@ -9,6 +9,31 @@ public class Hufflepuff extends student {
         this.loyalty = loyalty;
         this.honesty = honesty;
     }
+
+    public int getDiligence() {
+        return diligence;
+    }
+
+    public void setDiligence(int diligence) {
+        this.diligence = diligence;
+    }
+
+    public int getLoyalty() {
+        return loyalty;
+    }
+
+    public void setLoyalty(int loyalty) {
+        this.loyalty = loyalty;
+    }
+
+    public int getHonesty() {
+        return honesty;
+    }
+
+    public void setHonesty(int honesty) {
+        this.honesty = honesty;
+    }
+
     public void printPeople() {
         super.printPeople();
         System.out.println("Свойства Пуффендуев: ");

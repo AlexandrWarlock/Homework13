@@ -1,9 +1,9 @@
-public class student {
+public class Student {
     String name;
     String surname;
     int magic;
     int teleportation;
-    public student(String name, String surname, int magic, int teleportation) {
+    public Student(String name, String surname, int magic, int teleportation) {
         this.name = name;
         this.surname = surname;
         this.magic = magic;
